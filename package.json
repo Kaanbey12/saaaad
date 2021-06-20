@@ -4,9 +4,9 @@
   "name": "Asreaper",
   "version": "0.0.1",
   "description": "Asreaper",
-  "main": "shard.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node shard.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "adapter": "^1.0.0-beta.8",

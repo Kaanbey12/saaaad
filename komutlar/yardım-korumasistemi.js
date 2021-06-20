@@ -2,7 +2,6 @@ const WestraDiscord = require('discord.js');
 const WestraClient = new WestraDiscord.Client();
 const ayarlar = require('../ayarlar.json');
 let prefix = ayarlar.prefix
-let gif = `https://cdn.discordapp.com/attachments/769957882166116353/769974488670011422/standard.gif`
 
 exports.run = (client, message) => {
  const WestraEmbed = new WestraDiscord.MessageEmbed()
@@ -17,9 +16,8 @@ exports.run = (client, message) => {
  **${prefix}rol-koruma-sıfırla** \n-> Rol koruma sistemini sıfırlar.
  **${prefix}spam-koruma** \n-> Spam koruma sistemini açar.
  **${prefix}spam-koruma-kapat** \n-> Spam koruma sistemini kapatır.`)
- .setFooter(`Crypto`)
+ .setFooter(`MaximusBoys`)
  .setTimestamp()
- .setImage(gif)
  message.channel.send(WestraEmbed)
 }
 exports.conf = {
