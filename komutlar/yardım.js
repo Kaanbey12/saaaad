@@ -7,7 +7,7 @@ const yardım = new Discord.MessageEmbed()
   .setColor("0x36393F")
   .setThumbnail(client.user.avatarURL())
   .setDescription(`• Hey! <@${message.author.id}> beni kullandığın için teşekkür ederim!\n •  Prefixim: **!**\n • Dilim: **TR** :flag_tr:\n • Üyelik durumu: ${db.has(`üyelikk_${message.author.id}`, "üyelik") ? `**Gold üye!**` : `**Normal üye!**`}`)
-  .addField(" • Kategoriler:", `> • [!kullanıcı](Link): **Kullanıcı yardım menüsünü gösterir.**\n > • !moderasyon:**Moderasyon yardım menüsünü gösterir.**\n > • [!kayıtsistemi](Link): ** Kayıt sistemi yardım menüsünü gösterir.**\n > • [!korumasistemi](Link): ** Koruma sistemi yardım menüsünü gösterir.**\n > • [!logosistemi](Link): ** Logo sistemi yardım menüsünü gösterir.**\n > • [!çekilişsistemi](Link): ** Çekiliş sistemi yardım menüsünü gösterir.**`)
+  .addField(" • Kategoriler:", `> • [!kullanıcı](Link): **Kullanıcı yardım menüsünü gösterir.**\n > • !moderasyon:**Moderasyon yardım menüsünü gösterir.**\n > • [!kayıtsistemi](Link): ** Kayıt sistemi yardım menüsünü gösterir.**\n > • [!korumasistemi](Link): ** Koruma sistemi yardım menüsünü gösterir.**\n > • [!logosistemi](Link): ** Logo sistemi yardım menüsünü gösterir.**\n > • [!çekilişsistemi](Link): ** Çekiliş sistemi yardım menüsünü gösterir.** Geliştiricim Program Değişti Bu Yüz den Hatalar Vardır!`)
   .addField(" • Güncelleme Notları:", "**Güncelleme v0.4:** Çekiliş sistemi eklendi!")
 
   .addField(" • Linkler:", "• [Davet Et](https://discord.com/oauth2/authorize?client_id=849214555052834827&scope=bot&permissions=8) • [Destek Sunucusu](https://discord.gg/g7dWfHD6) • [Web Site](https://dcbotlar.xyz) •")
