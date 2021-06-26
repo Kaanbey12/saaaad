@@ -4,4 +4,5 @@ module.exports = {
   **Sesli Kanala Girildi**
   $joinVC[$voiceID]  
   $onlyIf[$voiceID!=;**Bir Sesli Kanala Girmelisin.**]
-  `}
+  `
+}
