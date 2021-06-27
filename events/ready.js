@@ -10,8 +10,7 @@ module.exports = client => {
   var msgArray = [
 "Hypexle Sonsuza Dek",
 "Hazır Ve El YapımııAltyapılarımızı Size Sunuyoruz!",
-"Prefix -!-"
-    "Ben i Sunucunuza Ederseniz "
+"Prefix -!-"z "
  ];
 
  setInterval(() => {
