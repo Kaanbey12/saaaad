@@ -8,10 +8,10 @@ module.exports = client => {
  setInterval(function() {
 }, 8000);
   var msgArray = [
-"MaximusBoys",
-"Asreaper Önderliğinde",
-"Her Daim!",
-    "MaximusBoys"
+"Hypexle Sonsuza Dek",
+"Hazır Ve El YapımııAltyapılarımızı Size Sunuyoruz!",
+"Prefix -!-"
+    "Ben i Sunucunuza Ederseniz "
  ];
 
  setInterval(() => {
