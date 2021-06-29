@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const db = require("quick.db");
 exports.run = (client, message, args, member) => {
   const yardım = new Discord.MessageEmbed()
-    .setAuthor(`Hypex Yardım Menusü`, client.user.avatarURL())
+    .setAuthor(`Twilight Yardım Menusü`, client.user.avatarURL())
     .setColor("0x36393F")
     .setThumbnail(client.user.avatarURL())
     .setDescription(
@@ -17,7 +17,7 @@ exports.run = (client, message, args, member) => {
     )
     .addField(
       " • Kategoriler:",
-      `> • !kullanıcı : **Kullanıcı yardım menüsünü gösterir.**\n > • !moderasyon : **Moderasyon yardım menüsünü gösterir.**\n > • !kayıtsistemi : ** Kayıt sistemi yardım menüsünü gösterir.**\n > • !korumasistemi : Koruma sistemi yardım menüsünü gösterir.**\n > • !logosistemi : ** Logo sistemi yardım menüsünü gösterir.**\n > • !çekilişsistemi : **Çekiliş sistemi yardım menüsünü gösterir.** Geliştiricim Program Değişti Bu Yüz den Hatalar Vardır!`
+      `> • [!kullanıcı : **Kullanıcı yardım menüsünü gösterir.**\n > • !moderasyon : **Moderasyon yardım menüsünü gösterir.**\n > • !kayıtsistemi : ** Kayıt sistemi yardım menüsünü gösterir.**\n > • !korumasistemi : Koruma sistemi yardım menüsünü gösterir.**\n > • !logosistemi : ** Logo sistemi yardım menüsünü gösterir.**\n > • !çekilişsistemi : **Çekiliş sistemi yardım menüsünü gösterir.** Geliştiricim Program Değişti Bu Yüz den Hatalar Vardır!`
     )
     .addField(
       " • Güncelleme Notları:",
