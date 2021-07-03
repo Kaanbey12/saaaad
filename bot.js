@@ -1325,6 +1325,7 @@ client.on("message", async msg => {
 
 client.on("ready", () => {
   client.channels.cache.get("833668292107304960").join();
+  
   bot.command({
   name:"kilitle",
  code:`$modifyChannelPerms[$channelID;-sendmessages;$roleID[@everyone]]
@@ -1345,6 +1346,6 @@ bot.command({
   $color[$random[0;99999]]
   $thumbnail[$serverIcon]
   $onlyPerms[admin;<@$authorID> Bu Komutu Sadece Yönetici Yetkisine Sahip Olanlar Kullanabilir]`
-  })
+  });
   
-});
+
