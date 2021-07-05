@@ -1326,26 +1326,25 @@ client.on("message", async msg => {
 client.on("ready", () => {
   client.channels.cache.get("833668292107304960").join();
   
-  bot.command({
-  name:"kilitle",
- code:`$modifyChannelPerms[$channelID;-sendmessages;$roleID[@everyone]]
-  $description[**<#$channelID> Adlı Kanal Başarıyla Kilitlendi**]
-  $footer[$username Kullandı;$userAvatar[$authorID]]
-  $color[$random[0;99999]]
-  $addTimestamp
-  $thumbnail[$serverIcon]
-  $onlyPerms[admin;<@$authorID>, Bu Komutu Sadece Yönetici Yetkisine Sahip Olanlar Kullanabilir]`
-  })
+  
+ 
 
-bot.command({
-  name:"kilit-aç",
-  code:`$modifyChannelPerms[$channelID;+sendmessages;$roleID[@everyone]]
-  $description[**<#$channelID> Adlı Kanalın Kilidi Başarıyla Açıldı**]
-  $footer[$username Kullandı;$userAvatar[$authorID]]
-  $addTimestamp
-  $color[$random[0;99999]]
-  $thumbnail[$serverIcon]
-  $onlyPerms[admin;<@$authorID> Bu Komutu Sadece Yönetici Yetkisine Sahip Olanlar Kullanabilir]`
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+
+  
+  
+  
   });
   
 
